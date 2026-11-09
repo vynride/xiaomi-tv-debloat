@@ -1,0 +1,27 @@
+# Xiaomi Mi TV, Android TV 9 (Amlogic, 1 GB RAM). Tested on one TV, verify on yours.
+# Everything here is disabled with `pm disable-user --user 0` and can be re-enabled.
+
+# --- Telemetry / analytics ------------------------------------------------
+com.miui.tv.analytics                  # Xiaomi analytics
+com.xiaomi.statistic                   # Xiaomi usage statistics
+com.google.android.feedback            # Google feedback reporter
+com.google.android.tv.bugreportsender  # Bug report uploader
+
+# --- Ads / sponsored content -----------------------------------------------
+com.mitv.tvhome.atv                    # PatchWall: Xiaomi content hub, ~65 MB resident even when not the home screen. Remote's PatchWall button stops working.
+com.xm.webcontent                      # Xiaomi web content feed
+com.google.android.tvrecommendations   # Feeds sponsored rows on the stock home screen
+com.google.android.leanbacklauncher.recommendations  # Recommendations for the old Leanback launcher
+
+# --- Bloat ------------------------------------------------------------------
+com.google.android.videos              # Google TV / Play Movies
+com.google.android.play.games          # Play Games app (games still work without it)
+com.xiaomi.mitv.handbook               # On-device user manual
+com.android.printspooler               # Printing, on a TV
+com.xiaomi.mitv.tvmanager              # Xiaomi "TV Manager" cleaner, runs a background service
+
+# --- Xiaomi media apps (only if you have a replacement such as VLC) ----------
+com.xiaomi.mimusic2                    # Mi Music
+com.mitv.gallery                       # Mi Gallery
+com.mitv.videoplayer                   # Mi Video player
+com.xiaomi.mitv.mediaexplorer          # Mi file/USB media browser

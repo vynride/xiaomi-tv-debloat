@@ -1,0 +1,6 @@
+backups/
+*.png
+*.xml
+before.txt
+after.txt
+.DS_Store

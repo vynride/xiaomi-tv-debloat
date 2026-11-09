@@ -1,0 +1,16 @@
+# key=value for `settings put global`. The previous values are saved and restored by undo.
+
+# Faster UI: halve animation durations (0 can make Android TV feel jumpy).
+window_animation_scale=0.5
+transition_animation_scale=0.5
+animator_duration_scale=0.5
+
+# Encrypted DNS (DNS-over-TLS) via AdGuard: blocks ad and tracker domains for every app.
+# Requires Android 9+. Swap the hostname for another DoT provider if you prefer.
+private_dns_mode=hostname
+private_dns_specifier=dns.adguard-dns.com
+
+# Stop Wi-Fi/Bluetooth from scanning in the background while "off". Normal Wi-Fi and
+# Bluetooth (including Bluetooth remotes) keep working.
+wifi_scan_always_enabled=0
+ble_scan_always_enabled=0

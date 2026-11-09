@@ -1,0 +1,14 @@
+# Apps denied RUN_IN_BACKGROUND. They open and play normally, they just can't keep
+# services running while you're not using them. Edit this to match the apps YOU have.
+#
+# Don't add apps you cast to or control from your phone (e.g. Spotify Connect),
+# or the TV stops appearing as a target when the app isn't open.
+
+com.netflix.ninja                      # Netflix: ~70-90 MB resident at all times on a 1 GB TV
+com.mxtech.videoplayer.television      # MX Player TV
+
+# Examples of regional streaming apps that auto-started at boot on the test TV.
+# Uncomment / replace with your own (`adb shell pm list packages -3` lists them).
+# in.startv.hotstar
+# com.sonyliv
+# com.jio.media.stb.ondemand

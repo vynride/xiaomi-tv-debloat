@@ -1,0 +1,10 @@
+# Conservative, vendor-neutral starting point for stock Android TV (not Google TV).
+# Check `adb shell pm list packages` first: anything not installed is skipped.
+
+com.google.android.feedback
+com.google.android.tv.bugreportsender
+com.google.android.tvrecommendations
+com.google.android.leanbacklauncher.recommendations
+com.google.android.videos
+com.google.android.play.games
+com.android.printspooler
